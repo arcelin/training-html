@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 90vw; /* Définit la largeur en pourcentage de la largeur de l'écran*/
+}
+
+.panel {
+  background-size: cover; /* L'image de background remplit le panel */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh; /* Définit la hauteur en pourcentage de la hauteur de l'écran*/
+  flex: 0.5; /* Définit la taille relative de l'élément dans le container */
+  position: relative; /* Définit la position des sous-élements */
+  margin: 10px; /* Écarte les images */
+  border-radius: 50px; /* Arrondit les bords */
+  color: white; /* Définit la couleur des sous-éléments */
+  cursor: pointer; /* Change la forme du curseur quand on le passe sur l'élément */
+  transition: all 700ms ease-in;
+}
+
+.panel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
