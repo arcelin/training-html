@@ -17,21 +17,28 @@ body {
 
 .container {
   display: flex;
-  width: 90vw; /* Définit la largeur en pourcentage de la largeur de l'écran*/
+  width: 90vw;
 }
 
 .panel {
-  background-size: cover; /* L'image de background remplit le panel */
+  /* Panel settings */
+  height: 80vh;
+  flex: 0.5;
+  margin: 10px;
+  border-radius: 50px;
+
+  /* Animation */
+  transition: all 700ms ease-in;
+  
+  /* Picture settings */
+  background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh; /* Définit la hauteur en pourcentage de la hauteur de l'écran*/
-  flex: 0.5; /* Définit la taille relative de l'élément dans le container */
-  position: relative; /* Définit la position des sous-élements */
-  margin: 10px; /* Écarte les images */
-  border-radius: 50px; /* Arrondit les bords */
-  color: white; /* Définit la couleur des sous-éléments */
-  cursor: pointer; /* Change la forme du curseur quand on le passe sur l'élément */
-  transition: all 700ms ease-in;
+
+  /* Sub-elements settings */
+  position: relative;
+  cursor: pointer;
+  color: white;
 }
 
 .panel h3 {
