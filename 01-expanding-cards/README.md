@@ -57,13 +57,13 @@
 - Sélectionner les éléments d'un fichier HTML depuis le JavaScript.
 
 ```js
-const panels = document.querySelectorAll('.panel')
+const panels = document.querySelectorAll(".panel");
 ```
 
 - `classList` : permet la manipulation des éléments d'une classe HTML depuis le JavaScript.
 
 ```js
-panel.classList.add('active')
+panel.classList.add("active");
 ```
 
 ### Autres
