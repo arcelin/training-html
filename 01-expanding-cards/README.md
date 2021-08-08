@@ -1,10 +1,5 @@
 # 01 - Expending cards
 
-## Améliorations à apporter
-
-- Remplacer les titres des images par les logos des séries au format png.
-- Ajouter des fragments de code dans le README avec les bonnes balises.
-
 ## Notes
 
 ### HTML
