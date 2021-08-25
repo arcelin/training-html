@@ -1,8 +1,6 @@
 # 01 - Expending cards
 
-## Notes
-
-### HTML
+## HTML
 
 - `background-image` : l'exercice ici est d'afficher l'image non pas dans une balise html `<img>`, mais dans une balise `<div>` en utilisant l'attribut `style`.
 
@@ -13,7 +11,7 @@
 ></div>
 ```
 
-### CSS
+## CSS
 
 - **Unités relatives en css** : on a l'habitude d'utiliser les classiques `px` ou `mm`, mais dans le corrigé, il utilise les unités `vh` et `vw` qui représentent les pourcentages de l'élément par rapport à la hauteur (height) ou la largeur (weight). Documentation : <https://www.w3schools.com/CSSref/css_units.asp>.
 
@@ -47,7 +45,7 @@
 }
 ```
 
-### JavaScript
+## JS
 
 - Sélectionner les éléments d'un fichier HTML depuis le JavaScript.
 
